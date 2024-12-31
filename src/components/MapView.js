@@ -12,7 +12,7 @@ const MapView = ({ center, onMarkerDragEnd, onLocateMe }) => {
             <button style={styles.locateButton} onClick={onLocateMe}>
                 Locate Me
             </button>
-            <LoadScript googleMapsApiKey="AIzaSyBnTRkzhzilpKrCKFC47z2iJuT5mRv_bf8">
+            <LoadScript googleMapsApiKey="Your_google_map_api_key">
                 <GoogleMap
                     mapContainerStyle={containerStyle}
                     center={center}
